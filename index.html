@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .parents{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        display:flex;
+       
+        
+       }
+       .son{
+         width:100%;
+         padding:10px;
+         margin:10px;
+         word-spacing:10px;
+       }
+       .daughter{
+         width:auto;
+         padding:10px;
+         
+         margin:10px;
+         
+        
+       }
+
+       .daughter img{
+        margin-top:80px;
+       }
+
+       @media(max-width:768px){
+          .parents{
+            display:inline-block;
+              margin:10px;
+              padding:10px;
+             
+          }
+          .son{
+             width:90%;
+           
+         
+         
+          }
+          .son p{
+            padding-right:10px;
+            margin:10px;
+            height: auto;
+            color:blue;
+          }
+          .daughter{
+              width:90%;
+            color:blue;
+            display:flex;
+            margin:20px;
+            padding:0;
+            justify-content: center;
+            border:2px solid rgb(255, 0, 234);
+            border-radius: 10px;
+
+          }
+          .daughter img{
+            width:100%;
+             margin-top:0; 
+           
+          }
+       }
+
+
+
+
+        @media( max-width:350px){
+             .parents{
+                padding:10px;
+                margin:10px;
+                background-color: aquamarine;
+             }
+             .son p{
+              color:blueviolet;
+              
+               
+             }
+             .daughter{
+              border:2px solid rgb(209, 209, 16);
+              border-radius: 10px;;
+              padding:0;
+              margin:0;
+              padding-top:0;
+              margin-top:0;
+             }
+             .daughter img{
+              margin:0;
+              padding:0;
+              margin:0;
+              margin-left:0;
+              padding-left:0;
+              width:100%;
+
+             }
+        }
+  @media(min-width:769px) and (max-width:1024px){
+
+     .son p{
+      color:palevioletred;
+     }
+
+
+    .son h1{
+       text-transform: uppercase;
+    }
+    .daughter img{
+      border:2px solid red;
+      border-radius: 10px;
+    }
+  }
+
+    </style>
+</head>
+    <body>
+     
+       <div class="parents">
+       
+      <div class="son">
+        <h1 style="text-align:center" class="header" >Media Queries </h1>
+       <p>Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
+
+        The word nature is borrowed from the Old French nature and is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".ures of the world to develop of their own accord.</p>
+      </div>
+      <div class="daughter">
+        <img src="images.jpg"alt="pecock pics ">
+      </div>
+
+
+       </div>
+   
+
+      </body>
+      </html>
